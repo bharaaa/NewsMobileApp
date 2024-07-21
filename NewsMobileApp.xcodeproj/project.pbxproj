@@ -51,6 +51,11 @@
 		69032F3F2C4D726A00D38CAA /* NewsMobileApp */ = {
 			isa = PBXGroup;
 			children = (
+				69032F522C4D793D00D38CAA /* Router */,
+				69032F512C4D793600D38CAA /* Entity */,
+				69032F502C4D792A00D38CAA /* Presenter */,
+				69032F4F2C4D790000D38CAA /* Interactor */,
+				69032F4E2C4D78F400D38CAA /* View */,
 				69032F402C4D726A00D38CAA /* NewsMobileAppApp.swift */,
 				69032F422C4D726A00D38CAA /* ContentView.swift */,
 				69032F442C4D726C00D38CAA /* Assets.xcassets */,
@@ -65,6 +70,41 @@
 				69032F472C4D726C00D38CAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69032F4E2C4D78F400D38CAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69032F4F2C4D790000D38CAA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		69032F502C4D792A00D38CAA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		69032F512C4D793600D38CAA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		69032F522C4D793D00D38CAA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
