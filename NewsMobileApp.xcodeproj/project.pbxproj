@@ -17,6 +17,7 @@
 		69032F5A2C4D7CF300D38CAA /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F592C4D7CF300D38CAA /* APIResponse.swift */; };
 		69032F5E2C4D7EF000D38CAA /* ArticleSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F5D2C4D7EF000D38CAA /* ArticleSingleView.swift */; };
 		69032F602C4D813E00D38CAA /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F5F2C4D813E00D38CAA /* ArticleListView.swift */; };
+		69032F622C4D83E600D38CAA /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F612C4D83E600D38CAA /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		69032F592C4D7CF300D38CAA /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		69032F5D2C4D7EF000D38CAA /* ArticleSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSingleView.swift; sourceTree = "<group>"; };
 		69032F5F2C4D813E00D38CAA /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		69032F612C4D83E600D38CAA /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				69032F5D2C4D7EF000D38CAA /* ArticleSingleView.swift */,
 				69032F5F2C4D813E00D38CAA /* ArticleListView.swift */,
+				69032F612C4D83E600D38CAA /* SafariView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				69032F602C4D813E00D38CAA /* ArticleListView.swift in Sources */,
 				69032F5E2C4D7EF000D38CAA /* ArticleSingleView.swift in Sources */,
 				69032F582C4D7BEC00D38CAA /* ArticleInteractor.swift in Sources */,
+				69032F622C4D83E600D38CAA /* SafariView.swift in Sources */,
 				69032F562C4D7A9F00D38CAA /* ArticleEntity.swift in Sources */,
 				69032F5A2C4D7CF300D38CAA /* APIResponse.swift in Sources */,
 				69032F412C4D726A00D38CAA /* NewsMobileAppApp.swift in Sources */,

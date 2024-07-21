@@ -53,11 +53,27 @@ struct ArticleSingleView: View {
                         .lineLimit(1)
                         .foregroundColor(.secondary)
                     Spacer()
+                    Button {
+                        presentShareSheet(url: article.articleURL)
+                    } label: {
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .buttonStyle(.plain)
                 }
             }
             .padding([.bottom, .horizontal])
-            Spacer()
+            Spacer(minLength: 5)
         }
+    }
+}
+
+extension View {
+    func presentShareSheet(url: URL) {
+        let activityView = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+        (UIApplication.shared.connectedScenes.first as? UIWindowScene)?
+            .keyWindow?
+            .rootViewController?
+            .present(activityView, animated: true)
     }
 }
 
