@@ -16,6 +16,7 @@
 		69032F582C4D7BEC00D38CAA /* ArticleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F572C4D7BEC00D38CAA /* ArticleInteractor.swift */; };
 		69032F5A2C4D7CF300D38CAA /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F592C4D7CF300D38CAA /* APIResponse.swift */; };
 		69032F5E2C4D7EF000D38CAA /* ArticleSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F5D2C4D7EF000D38CAA /* ArticleSingleView.swift */; };
+		69032F602C4D813E00D38CAA /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F5F2C4D813E00D38CAA /* ArticleListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		69032F572C4D7BEC00D38CAA /* ArticleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleInteractor.swift; sourceTree = "<group>"; };
 		69032F592C4D7CF300D38CAA /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
 		69032F5D2C4D7EF000D38CAA /* ArticleSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSingleView.swift; sourceTree = "<group>"; };
+		69032F5F2C4D813E00D38CAA /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				69032F5D2C4D7EF000D38CAA /* ArticleSingleView.swift */,
+				69032F5F2C4D813E00D38CAA /* ArticleListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69032F432C4D726A00D38CAA /* ContentView.swift in Sources */,
+				69032F602C4D813E00D38CAA /* ArticleListView.swift in Sources */,
 				69032F5E2C4D7EF000D38CAA /* ArticleSingleView.swift in Sources */,
 				69032F582C4D7BEC00D38CAA /* ArticleInteractor.swift in Sources */,
 				69032F562C4D7A9F00D38CAA /* ArticleEntity.swift in Sources */,
