@@ -22,6 +22,7 @@
 		69032F662C4D870600D38CAA /* ArticleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F652C4D870600D38CAA /* ArticleTabView.swift */; };
 		69032F682C4D877400D38CAA /* ArticlePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F672C4D877400D38CAA /* ArticlePresenter.swift */; };
 		69032F6A2C4D87D700D38CAA /* PagingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F692C4D87D700D38CAA /* PagingEntity.swift */; };
+		69032F6C2C4D899400D38CAA /* SafariViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F6B2C4D899400D38CAA /* SafariViewPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		69032F652C4D870600D38CAA /* ArticleTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTabView.swift; sourceTree = "<group>"; };
 		69032F672C4D877400D38CAA /* ArticlePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePresenter.swift; sourceTree = "<group>"; };
 		69032F692C4D87D700D38CAA /* PagingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingEntity.swift; sourceTree = "<group>"; };
+		69032F6B2C4D899400D38CAA /* SafariViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				69032F672C4D877400D38CAA /* ArticlePresenter.swift */,
+				69032F6B2C4D899400D38CAA /* SafariViewPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				69032F5E2C4D7EF000D38CAA /* ArticleSingleView.swift in Sources */,
 				69032F582C4D7BEC00D38CAA /* ArticleInteractor.swift in Sources */,
 				69032F682C4D877400D38CAA /* ArticlePresenter.swift in Sources */,
+				69032F6C2C4D899400D38CAA /* SafariViewPresenter.swift in Sources */,
 				69032F622C4D83E600D38CAA /* SafariView.swift in Sources */,
 				69032F562C4D7A9F00D38CAA /* ArticleEntity.swift in Sources */,
 				69032F662C4D870600D38CAA /* ArticleTabView.swift in Sources */,
