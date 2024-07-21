@@ -18,6 +18,10 @@
 		69032F5E2C4D7EF000D38CAA /* ArticleSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F5D2C4D7EF000D38CAA /* ArticleSingleView.swift */; };
 		69032F602C4D813E00D38CAA /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F5F2C4D813E00D38CAA /* ArticleListView.swift */; };
 		69032F622C4D83E600D38CAA /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F612C4D83E600D38CAA /* SafariView.swift */; };
+		69032F642C4D860A00D38CAA /* CategoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F632C4D860A00D38CAA /* CategoryEntity.swift */; };
+		69032F662C4D870600D38CAA /* ArticleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F652C4D870600D38CAA /* ArticleTabView.swift */; };
+		69032F682C4D877400D38CAA /* ArticlePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F672C4D877400D38CAA /* ArticlePresenter.swift */; };
+		69032F6A2C4D87D700D38CAA /* PagingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69032F692C4D87D700D38CAA /* PagingEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		69032F5D2C4D7EF000D38CAA /* ArticleSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSingleView.swift; sourceTree = "<group>"; };
 		69032F5F2C4D813E00D38CAA /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
 		69032F612C4D83E600D38CAA /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		69032F632C4D860A00D38CAA /* CategoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEntity.swift; sourceTree = "<group>"; };
+		69032F652C4D870600D38CAA /* ArticleTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTabView.swift; sourceTree = "<group>"; };
+		69032F672C4D877400D38CAA /* ArticlePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePresenter.swift; sourceTree = "<group>"; };
+		69032F692C4D87D700D38CAA /* PagingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,7 @@
 				69032F5D2C4D7EF000D38CAA /* ArticleSingleView.swift */,
 				69032F5F2C4D813E00D38CAA /* ArticleListView.swift */,
 				69032F612C4D83E600D38CAA /* SafariView.swift */,
+				69032F652C4D870600D38CAA /* ArticleTabView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,6 +117,7 @@
 		69032F502C4D792A00D38CAA /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				69032F672C4D877400D38CAA /* ArticlePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -117,6 +127,8 @@
 			children = (
 				69032F552C4D7A9F00D38CAA /* ArticleEntity.swift */,
 				69032F592C4D7CF300D38CAA /* APIResponse.swift */,
+				69032F632C4D860A00D38CAA /* CategoryEntity.swift */,
+				69032F692C4D87D700D38CAA /* PagingEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -199,12 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69032F6A2C4D87D700D38CAA /* PagingEntity.swift in Sources */,
 				69032F432C4D726A00D38CAA /* ContentView.swift in Sources */,
+				69032F642C4D860A00D38CAA /* CategoryEntity.swift in Sources */,
 				69032F602C4D813E00D38CAA /* ArticleListView.swift in Sources */,
 				69032F5E2C4D7EF000D38CAA /* ArticleSingleView.swift in Sources */,
 				69032F582C4D7BEC00D38CAA /* ArticleInteractor.swift in Sources */,
+				69032F682C4D877400D38CAA /* ArticlePresenter.swift in Sources */,
 				69032F622C4D83E600D38CAA /* SafariView.swift in Sources */,
 				69032F562C4D7A9F00D38CAA /* ArticleEntity.swift in Sources */,
+				69032F662C4D870600D38CAA /* ArticleTabView.swift in Sources */,
 				69032F5A2C4D7CF300D38CAA /* APIResponse.swift in Sources */,
 				69032F412C4D726A00D38CAA /* NewsMobileAppApp.swift in Sources */,
 			);
