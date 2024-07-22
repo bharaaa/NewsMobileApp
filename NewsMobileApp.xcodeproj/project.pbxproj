@@ -49,6 +49,7 @@
 		69032F6D2C4DF57100D38CAA /* NewsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRouter.swift; sourceTree = "<group>"; };
 		69032F6F2C4DFB0E00D38CAA /* NoInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
 		69032F732C4E09A600D38CAA /* NoNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNewsView.swift; sourceTree = "<group>"; };
+		69032F752C4E0F2800D38CAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 		69032F342C4D726A00D38CAA = {
 			isa = PBXGroup;
 			children = (
+				69032F752C4E0F2800D38CAA /* README.md */,
 				69032F3F2C4D726A00D38CAA /* NewsMobileApp */,
 				69032F3E2C4D726A00D38CAA /* Products */,
 			);
