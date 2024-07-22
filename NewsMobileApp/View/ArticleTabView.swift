@@ -30,7 +30,7 @@ struct ArticleTabView: View {
             }
             .navigationTitle(articlePresenter.selectedCategory.text)
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
+                ToolbarItem(placement: .topBarTrailing) {
                     menu
                 }
             }
