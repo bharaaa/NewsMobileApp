@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct NewsMobileAppApp: App {
+    @StateObject var router = NewsRouterImplementation(window: UIWindow())
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(router)
+                .onAppear {
+                    router.start()
+                }
         }
     }
 }

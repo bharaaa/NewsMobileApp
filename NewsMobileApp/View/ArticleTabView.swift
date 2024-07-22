@@ -13,9 +13,9 @@ struct ArticleTabView: View {
     var body: some View {
         NavigationStack {
             ArticleListView(
-                articles: articlePresenter.articles
-//                isFetching: articlePresenter.isFetchingNextPage,
-//                nextPageHandler: { await articlePresenter.loadNextPage() }
+                articles: articlePresenter.articles,
+                isFetching: articlePresenter.isFetchingNextPage,
+                nextPageHandler: { await articlePresenter.loadNextPage() }
             )
             .overlay(overlayView)
             .refreshable {
@@ -34,24 +34,23 @@ struct ArticleTabView: View {
                     menu
                 }
             }
-            .onChange(of: articlePresenter.selectedCategory) { _ in
+            .onChange(of: articlePresenter.selectedCategory) {
                 Task {
                     await articlePresenter.loadFirstPage()
                 }
             }
-            .onChange(of: articlePresenter.searchQuery){ newValue in
-                if newValue.isEmpty{
-                    Task{
+            .onChange(of: articlePresenter.searchQuery) {
+                if articlePresenter.searchQuery.isEmpty {
+                    Task {
                         await articlePresenter.loadFirstPage()
                     }
-                    
-                }else{
-                    Task{
+                } else {
+                    Task {
                         await articlePresenter.searchArticle()
                     }
-
                 }
             }
+
             .searchable(text: $articlePresenter.searchQuery)
         }
     }
@@ -63,7 +62,7 @@ struct ArticleTabView: View {
             ProgressView()
         case .success(let articles) where articles.isEmpty:
             Text("No articles")
-        case .error(let error):
+        case .error(_):
             Text("Error")
         default:
             EmptyView()
