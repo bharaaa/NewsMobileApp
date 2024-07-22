@@ -61,9 +61,17 @@ struct ArticleTabView: View {
         case .empty:
             ProgressView()
         case .success(let articles) where articles.isEmpty:
-            Text("No articles")
-        case .error(_):
-            Text("Error")
+            NoNewsView() {
+                Task {
+                    await articlePresenter.loadFirstPage()
+                }
+            }
+        case .error(let error):
+            NoInternetView(text: error.localizedDescription) {
+                Task {
+                    await articlePresenter.loadFirstPage()
+                }
+            }
         default:
             EmptyView()
         }
