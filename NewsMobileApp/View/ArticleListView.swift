@@ -17,10 +17,27 @@ struct ArticleListView: View {
     var body: some View {
         List {
             ForEach(articles) { article in
-                ArticleSingleView(article: article)
-                    .onTapGesture {
-                        selectedArticle = article
+                if let nextPageHandler = nextPageHandler, article == articles.last{
+                    ArticleSingleView(article: article)
+                        .onTapGesture {
+                            selectedArticle = article
+                        }
+                        .task {
+                            await nextPageHandler()
+                        }
+                    if isFetching{
+                        HStack{
+                            Spacer()
+                            ProgressView()
+                            Spacer()
+                        }
                     }
+                } else{
+                    ArticleSingleView(article: article)
+                        .onTapGesture {
+                            selectedArticle = article
+                        }
+                }
             }
             .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
         }
