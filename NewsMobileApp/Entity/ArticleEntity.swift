@@ -9,9 +9,6 @@ import Foundation
 
 fileprivate let relativeDateFormatter = RelativeDateTimeFormatter()
 
-let activityTypeViewKey = "com.bhara.newsmobileapp.view"
-let activityURLKey = "newsmobileapp.url.key"
-
 struct ArticleEntity {
     let id = UUID()
     
