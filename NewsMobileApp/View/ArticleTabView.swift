@@ -85,7 +85,7 @@ struct ArticleTabView: View {
                 }
             }
         } label: {
-            Image(systemName: "fiberchannel")
+            Image(systemName: "list.bullet")
                 .imageScale(.large)
         }
     }
